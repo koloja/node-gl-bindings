@@ -9,7 +9,7 @@ import {gl, glfw, constants} from './src/index';
 const width = 600;
 const height = 600;
 
-if (glfw.init() === 0) {console.error('failed to init'); process.exit(1)};
+if (glfw.init() === 0) {console.log(new Error('Failed to init')); process.exit(1)};
 const window = glfw.createWindow(width, height, 'window', null as any, null as any);
 
 if (window.isNull()) {
