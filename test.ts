@@ -1,10 +1,3 @@
-# node-gl-bindings
-A simple GLFW and OpenGL binding package for NodeJS.
-
-> [!WARNING]
-> This will only work on Windows.
-
-```ts
 import {gl, glfw, constants} from './src/index';
 const width = 600;
 const height = 600;
@@ -42,4 +35,3 @@ while (!glfw.windowShouldClose(window)) {
 
 glfw.destroyWindow(window);
 glfw.terminate();
-```

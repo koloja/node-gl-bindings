@@ -1,0 +1,20 @@
+{
+    "name": "node-gl-bindings",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "koloja",
+    "license": "MIT",
+    "dependencies": {
+        "@eleccookie/ffi-napi": "^0.0.1",
+        "@eleccookie/ref-napi": "^0.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.7.9",
+        "tsx": "^4.19.1",
+        "typescript": "^5.6.3"
+    }
+}
