@@ -4,8 +4,12 @@ A simple GLFW and OpenGL binding package for NodeJS.
 > [!WARNING]
 > This will only work on Windows.
 
+```batch
+npm install node-gl-bindings
+```
+
 ```ts
-import {gl, glfw, constants} from './src/index';
+import {gl, glfw, constants} from 'node-gl-bindings';
 const width = 600;
 const height = 600;
 
