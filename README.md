@@ -1,5 +1,7 @@
 # node-gl-bindings
 A simple GLFW and OpenGL binding package for NodeJS.
+<br>
+It is missing alot of functions and constants, if you would like to contribute create a pull request.
 
 > [!WARNING]
 > This will only work on Windows.
