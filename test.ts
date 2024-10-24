@@ -1,4 +1,4 @@
-import {gl, glfw, constants} from './src/index';
+import {gl, glfw, constants} from './src/index'; // change to 'node-gl-bindings'
 const width = 600;
 const height = 600;
 
