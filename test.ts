@@ -1,14 +1,13 @@
 import {gl, glfw, constants} from './src/index'; // change to 'node-gl-bindings'
 const width = 600;
-const height = 600;
+const height = width;
 
-if (glfw.init() === 0) {console.log(new Error('Failed to init')); process.exit(1)};
+if (glfw.init() === 0) throw new Error('Failed to init');
 const window = glfw.createWindow(width, height, 'window', null as any, null as any);
 
 if (window.isNull()) {
-    console.log(new Error('Failed to create GLFW window'));
     glfw.terminate();
-    process.exit(1);
+    throw new Error('Failed to create GLFW window');
 }
 glfw.makeContextCurrent(window);
 gl.clearColor(0.0, 0.0, 0.0, 1.0);
